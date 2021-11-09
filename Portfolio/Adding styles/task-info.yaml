@@ -232,6 +232,12 @@ files:
         }
     );
   learner_created: false
+- name: src/style.css
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/137/stages/732/implement#comment
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Tue, 09 Nov 2021 19:50:51 UTC
+record: 3

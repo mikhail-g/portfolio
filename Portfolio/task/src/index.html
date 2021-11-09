@@ -2,49 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Hello, World!</title>
+    <link rel="stylesheet" href="style.css">
+    <title>John Doe. Portfolio</title>
 </head>
 <body>
-<header>
-    <h1>John Doe</h1>
+<header id="home">
     <nav>
         <ul>
             <li>
-                <a href="#about">About me</a>
+                <a href="#about">ABOUT ME</a>
             </li>
             <li>
-                <a href="#portfolio">Portfolio</a>
+                <a href="#portfolio">PORTFOLIO</a>
             </li>
             <li>
-                <a href="#contacts">Contacts</a>
+                <a href="#contacts">CONTACTS</a>
+            </li>
+            <li>
+                <a href="#home">HOME</a>
             </li>
         </ul>
     </nav>
+    <div id="header-picture">
+<!--        <img src="./public/site/bg.jpg" alt="Background image">-->
+        <h1>John Doe,<br>Front-end developer</h1>
+    </div>
 </header>
 <main>
     <section id="about">
-        <h2>About me</h2>
-        <img src="./public/user.png" width="256" height="256">
-        <p>JetBrains Academy student</p>
+        <div class="about-item" id="about-pictures">
+            <img id="about-back" src="./public/site/image.jpg" alt="Profile background image" width="455" height="256">
+            <img id="about-photo" src="./public/user.png" alt="My photo" width="256" height="256">
+        </div>
+        <div class="about-item" id="about-text">
+            <h2>About me</h2>
+            <p>JetBrains Academy student<br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
     </section>
     <section id="portfolio">
         <h2>Portfolio</h2>
-        <article class="project">
-            <h3 class="project-name">Project #1</h3>
-            <img src="" alt="Project #1 Image" width="512" height="256">
-        </article>
-        <article class="project">
-            <h3 class="project-name">Project #2</h3>
-            <img src="" alt="Project #2 Image" width="512" height="256">
-        </article>
+        <div class="content">
+            <div class="project">
+                <img src="./public/site/project1.png" alt="Flash Cards Image" width="512" height="256">
+                <h3 class="project-name">Flash Cards</h3>
+            </div>
+            <div class="project">
+                <img src="./public/site/project2.png" alt="Virtual Piano Image" width="512" height="256">
+                <h3 class="project-name">Virtual Piano</h3>
+            </div>
+        </div>
+    </section>
+    <section id="contacts">
+        <h2>Contacts</h2>
+        <p>phone: <a href="tel:00-00-00">00-00-00</a></p>
+        <p>email: <a href="mailto:asd@qwe.com">asd@qwe.com</a></p>
+        <div id="social">
+            <img src="./public/site/github.svg" alt="GitHub">
+            <img src="./public/site/facebook.svg" alt="Facebook">
+            <img src="./public/site/twitter.svg" alt="Twitter">
+            <img src="./public/site/instagram%201.svg" alt="Instagram">
+        </div>
     </section>
 </main>
 <footer>
-    <section id="contacts">
-        <h2>Contacts</h2>
-        <p>phone: 00-00-00</p>
-        <p>email: asd@qwe.com</p>
-    </section>
+    <p>JOHN DOE</p>
+    <p class="small-text">2021</p>
 </footer>
 </body>
 </html>
