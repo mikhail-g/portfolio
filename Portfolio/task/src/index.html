@@ -5,24 +5,46 @@
     <title>Hello, World!</title>
 </head>
 <body>
+<header>
+    <h1>John Doe</h1>
+    <nav>
+        <ul>
+            <li>
+                <a href="#about">About me</a>
+            </li>
+            <li>
+                <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+                <a href="#contacts">Contacts</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 <main>
-    <section>
-        <h1>John Doe</h1>
+    <section id="about">
         <h2>About me</h2>
         <img src="./public/user.png" width="256" height="256">
         <p>JetBrains Academy student</p>
     </section>
-    <section>
+    <section id="portfolio">
         <h2>Portfolio</h2>
         <article class="project">
             <h3 class="project-name">Project #1</h3>
-            <img src="" alt="Project #1 Image">
+            <img src="" alt="Project #1 Image" width="512" height="256">
         </article>
         <article class="project">
             <h3 class="project-name">Project #2</h3>
-            <img src="" alt="Project #2 Image">
+            <img src="" alt="Project #2 Image" width="512" height="256">
         </article>
     </section>
 </main>
+<footer>
+    <section id="contacts">
+        <h2>Contacts</h2>
+        <p>phone: 00-00-00</p>
+        <p>email: asd@qwe.com</p>
+    </section>
+</footer>
 </body>
 </html>
