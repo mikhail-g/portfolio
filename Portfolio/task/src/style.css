@@ -26,7 +26,7 @@ footer {
 }
 
 section {
-    height: 80vh;
+    height: 90vh;
     align-items: center;
     justify-content: center;
     background-color: lightsalmon;
@@ -44,10 +44,6 @@ h1 {
     margin: 100px;
 }
 
-p {
-    margin: 0;
-}
-
 ul {
     width: 100%;
     padding: 0;
@@ -58,6 +54,10 @@ ul {
 
 li {
     margin: 0 15px;
+}
+
+.no-margin-p p {
+    margin: 0;
 }
 
 .flex-column {
@@ -118,7 +118,22 @@ li {
     display: flex;
     flex-flow: column;
     align-items: center;
+    justify-content: space-around;
+    margin: 16px;
+    padding: 32px;
     background-color: white;
+}
+
+.window {
+    min-height: 150px;
+    width: 600px;
+    border: thick solid black;
+    border-radius: 15px;
+    position: absolute;
+    align-items: center;
+    background-color: lightgray;
+
+    opacity: 0;
 }
 
 #contacts {

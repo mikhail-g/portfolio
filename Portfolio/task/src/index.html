@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
     <title>John Doe. Portfolio</title>
+    <script src="listeners.js" defer></script>
 </head>
 <body class="flex-column">
 <header id="home" class="flex-column">
@@ -52,14 +53,21 @@
             <div class="project">
                 <img src="./public/site/project1.png" alt="Flash Cards Image" width="512" height="256">
                 <h3 class="project-name">Flash Cards</h3>
+                <button class="open-window">See more</button>
             </div>
             <div class="project">
                 <img src="./public/site/project2.png" alt="Virtual Piano Image" width="512" height="256">
                 <h3 class="project-name">Virtual Piano</h3>
+                <button class="open-window">See more</button>
             </div>
         </div>
+        <div class="window flex-column">
+            <h2>Project Name</h2>
+            <p>Description</p>
+            <button class="close-window">Close</button>
+        </div>
     </section>
-    <section id="contacts" class="flex-column">
+    <section id="contacts" class="flex-column no-margin-p">
         <h2>Contacts</h2>
         <p>phone: <a href="tel:00-00-00">00-00-00</a></p>
         <p>email: <a href="mailto:asd@qwe.com">asd@qwe.com</a></p>
@@ -71,7 +79,7 @@
         </div>
     </section>
 </main>
-<footer class="flex-column">
+<footer class="flex-column no-margin-p">
     <p>JOHN DOE</p>
     <p><small>2021</small></p>
 </footer>
