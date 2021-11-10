@@ -252,6 +252,163 @@ files:
         }
     );
   learner_created: false
+- name: src/style.css
+  visible: true
+  text: |+
+    body {
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-flow: column;
+        justify-content: stretch;
+        align-items: center;
+        background-color: lightgray;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        color: lightgray;
+        background-color: black;
+    }
+
+    nav {
+        width: 100%;
+        /*background-color: indigo;*/
+    }
+
+    ul {
+        width: 100%;
+        padding: 0;
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        /*background-color: darkgreen;*/
+    }
+
+    li {
+        margin: 0 15px;
+    }
+
+    nav a {
+        color: lightgray;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    #header-picture {
+        height: 80vh;
+        min-height: 300px;
+        width: 100%;
+        display: flex;
+        flex-flow: column-reverse;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-image: url("./public/site/bg.jpg");
+    }
+
+    h1 {
+        margin: 100px;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        background-color: lightblue;
+    }
+
+    footer {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        color: white;
+        background-color: black;
+    }
+
+    section {
+        height: 80vh;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        background-color: lightsalmon;
+    }
+
+    #about {
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        background-color: lightgray;
+    }
+
+    .about-item {
+        margin: 50px;
+    }
+
+    #about-photo {
+        position: absolute;
+        transform: translate(300px, 50px);
+        left: 200px;
+    }
+
+    #about-text {
+        width: 25vw;
+        min-width: 200px;
+    }
+
+    #portfolio {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        background-color: #e6e6e6;
+    }
+
+    .content {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .project {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        background-color: white;
+    }
+
+    #contacts {
+        height: 40vh;
+        width: 100%;
+        background-color: white;
+    }
+
+    #social {
+        margin: 15px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    .small-text {
+        font-size: .8em;
+        color: lightgray;
+    }
+
+
+  learner_created: true
+- name: src/listeners.js
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/137/stages/733/implement#comment
 status: Unchecked
 record: -1
